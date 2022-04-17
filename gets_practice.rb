@@ -1,2 +1,5 @@
 line = gets.split(' ')
-p line
+
+line.each do |text|
+  p text
+end
